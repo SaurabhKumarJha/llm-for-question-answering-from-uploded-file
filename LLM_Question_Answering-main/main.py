@@ -158,9 +158,9 @@ def ask_and_get_answer(vector_store, q, client, embedding_func, COLLECTION_NAME,
     # print(reviews_str)
 
     try:
-        BASE_URL = os.getenv('AZURE_OPENAI_ENDPOINT', 'https://trail-outcome.openai.azure.com/')
-        API_KEY = os.getenv('AZURE_OPENAI_KEY', 'b59f23e204b3426c9dbe1f6741b80acb')
-        DEPLOYMENT_NAME = os.getenv('AZURE_OPENAI_DEPLOYMENT', 'LMM_OPENAI')
+        BASE_URL = os.getenv('AZURE_OPENAI_ENDPOINT', ')
+        API_KEY = os.getenv('AZURE_OPENAI_KEY', )
+        DEPLOYMENT_NAME = os.getenv('')
 
         model = AzureChatOpenAI(
             openai_api_base=BASE_URL,
